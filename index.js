@@ -46,8 +46,8 @@ console.log ( string3.repeat(4) + " Batman!" )
 // Your code here...
 
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
-const mangoIndex = fruit.indexOf("mango")
-const favoriteFruit = fruit.slice(mangoIndex, mangoIndex + 5)
+const mangoIndex = fruit.indexOf("mango");
+const favoriteFruit = fruit.slice(mangoIndex, mangoIndex + 5);
 
 console.log(favoriteFruit);
 
@@ -65,11 +65,19 @@ const funnyHeadline2 = "Students Cook & Serve Grandparents";
 
 // Check the first headline
 // Your code here ...
-
+if (funnyHeadline1.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'");
+} else {
+    console.log("The string does not include the word 'oxygen'");
+}
 
 // Check the second headline
 // Your code here ...
-
+if (funnyHeadline2.includes("oxygen")) {
+    console.log("The string includes the word 'oxygen'");
+} else {
+    console.log("The string does not include the word 'oxygen'");
+}
 
 
 /*******************************************
