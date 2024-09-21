@@ -19,7 +19,9 @@ console.log(string1.indexOf("j"))
 const string2 = "ABCDEFGHJKLO";
 
 // Your code here...
+const coolString = string2[2] + string2[string2.length - 1] + string2[string2.length - 1] + string2[string2.length -2];
 
+console.log(coolString);
 
 
 
