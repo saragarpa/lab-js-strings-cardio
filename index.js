@@ -42,10 +42,14 @@ console.log ( string3.repeat(4) + " Batman!" )
 *******************************************/
 // Using the string method .slice(), access and print to the console the name of your favorite fruit from a given string
 
-const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
 // Your code here...
 
+const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
+const mangoIndex = fruit.indexOf("mango")
+const favoriteFruit = fruit.slice(mangoIndex, mangoIndex + 5)
+
+console.log(favoriteFruit);
 
 
 /***************************************************
