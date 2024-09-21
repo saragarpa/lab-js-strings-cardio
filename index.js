@@ -90,7 +90,10 @@ const string4 = "zEAWrTC9EgtxmK9w1";
 
 // a) Print the string length
 // Your code here ...
+console.log("The length of the string is " + string4.length);
 
 
 // b) Print the last character in the string
 // Your code here ...
+console.log("The last character of string4 is " + string4[string4.length - 1]);
+
