@@ -30,10 +30,10 @@ console.log(coolString);
 *****************************************************/
 // Using the method .repeat() and the provided string, print out the text "NaNaNaNa Batman!" in the console.
 
+// Your code here...
 const string3 = "Na";
 
-// Your code here...
-
+console.log ( string3.repeat(4) + " Batman!" )
 
 
 
